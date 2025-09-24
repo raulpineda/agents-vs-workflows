@@ -1,0 +1,25 @@
+{
+  "name": "agents-vs-workflows",
+  "version": "1.0.0",
+  "description": "A tech talk for Typescript Live, presenting the differences between agents, workflows, and maybe agentic workflows",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "slides": "cd packages/slides && pnpm dev",
+    "app": "cd packages/app && pnpm dev"
+  },
+  "keywords": [
+    "typescript",
+    "ai agents",
+    "ai workflows",
+    "mastra",
+    "tech talk"
+  ],
+  "author": "Raúl Pineda <hola@raulpineda.mx>",
+  "license": "MIT",
+  "packageManager": "pnpm@10.17.1",
+  "dependencies": {
+    "@ai-sdk/openai-compatible": "^1.0.18",
+    "mastra": "^0.13.2"
+  }
+}
