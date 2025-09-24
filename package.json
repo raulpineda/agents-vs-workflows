@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "slides": "cd packages/slides && pnpm dev",
     "app": "cd packages/app && pnpm dev",
-    "play": "npx tsx ./packages/app/play-adventure.ts"
+    "play": "cd packages/app && npx tsx ./play-adventure.ts"
   },
   "keywords": [
     "typescript",
@@ -20,7 +20,9 @@
   "license": "MIT",
   "packageManager": "pnpm@10.17.1",
   "dependencies": {
-    "@ai-sdk/openai-compatible": "^1.0.18",
-    "mastra": "^0.13.2"
+    "@ai-sdk/openai-compatible": "1.0.17",
+    "dotenv": "^17.2.2",
+    "mastra": "^0.13.2",
+    "tsx": "^4.20.5"
   }
 }

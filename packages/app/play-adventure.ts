@@ -2,7 +2,6 @@
 
 // Disable Mastra telemetry warning - must be set before any Mastra imports
 (globalThis as any).___MASTRA_TELEMETRY___ = true;
-
 import "dotenv/config";
 import { createInterface } from "readline/promises";
 import { mastra } from "./src/mastra";
