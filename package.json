@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "slides": "cd packages/slides && pnpm dev",
-    "app": "cd packages/app && pnpm dev"
+    "app": "cd packages/app && pnpm dev",
+    "play": "npx tsx ./packages/app/play-adventure.ts"
   },
   "keywords": [
     "typescript",
