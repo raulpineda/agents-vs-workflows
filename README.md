@@ -11,6 +11,8 @@ A TypeScript meetup demo showcasing **Mastra** framework capabilities for buildi
 - Node.js (18+)
 - pnpm
 - An OpenAI compatible llm running locally
+  - LOCAL_OPENAI_COMPATIBLE_URL and LOCAL_OPENAI_COMPATIBLE_MODEL_NAME must be set in packages/app/.env
+- OR set OPENAI_API_KEY and update all usages of openAICompatible() to use openAI()
 
 ### 📊 Run the Slides
 
